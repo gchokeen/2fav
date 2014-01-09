@@ -3,8 +3,115 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b81952cb6e9226a9c996a53904ede992",
+    "hash": "e0a5a7cce19917701f36c8c10eda0590",
     "packages": [
+        {
+            "name": "ali/datatable",
+            "version": "dev-master",
+            "target-dir": "Ali/DatatableBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AliHichem/AliDatatableBundle.git",
+                "reference": "f2e8703e02bca4d72edc5efcdc47d200054b84fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AliHichem/AliDatatableBundle/zipball/f2e8703e02bca4d72edc5efcdc47d200054b84fe",
+                "reference": "f2e8703e02bca4d72edc5efcdc47d200054b84fe",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/common": ">=2.1,<2.4.x-dev",
+                "php": ">=5.3.0",
+                "twig/twig": ">=1.8,<2.0-dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Ali\\DatatableBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ali hichem",
+                    "email": "ali.hichem@mail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Symfony2 Ajax Datagrid Bundle for doctrine2 entities",
+            "homepage": "https://github.com/AliHichem/AliDatatableBundle",
+            "keywords": [
+                "Symfony2",
+                "datatable",
+                "jquery"
+            ],
+            "time": "2014-01-07 20:31:56"
+        },
+        {
+            "name": "braincrafted/bootstrap-bundle",
+            "version": "v2.0.0",
+            "target-dir": "Braincrafted/Bundle/BootstrapBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/braincrafted/bootstrap-bundle.git",
+                "reference": "ea12dae03f67cb718c66c50a5b59d523e8ba80a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/braincrafted/bootstrap-bundle/zipball/ea12dae03f67cb718c66c50a5b59d523e8ba80a9",
+                "reference": "ea12dae03f67cb718c66c50a5b59d523e8ba80a9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/console": "~2.3",
+                "symfony/finder": "~2.3",
+                "symfony/form": "~2.3",
+                "symfony/framework-bundle": "~2.3",
+                "symfony/twig-bundle": "~2.3"
+            },
+            "require-dev": {
+                "knplabs/knp-menu": "~2.0@alpha",
+                "knplabs/knp-menu-bundle": "~2.0@alpha",
+                "knplabs/knp-paginator-bundle": "dev-master",
+                "mockery/mockery": "0.8.*",
+                "phpunit/phpunit": "3.7.*",
+                "symfony/assetic-bundle": "~2.3"
+            },
+            "suggest": {
+                "knplabs/knp-menu": "Required to use KnpMenuBundle.",
+                "knplabs/knp-menu-bundle": "BraincraftedBootstrapBundle styles the menus provided by KnpMenuBundle.",
+                "knplabs/knp-paginator-bundle": "BraincraftedBootstrapBundle styles the pagination provided by KnpPaginatorBundle.",
+                "twbs/bootstrap": "Twitter Bootstrap provides the assets (images, CSS and JS)"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Braincrafted\\Bundle\\BootstrapBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Eckerstorfer",
+                    "email": "florian@eckerstorfer.co",
+                    "homepage": "http://florianeckerstorfer.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "BraincraftedBootstrapBundle integrates Bootstrap into Symfony2 by providing templates, Twig extensions, services and commands.",
+            "keywords": [
+                "bootstrap"
+            ],
+            "time": "2014-01-02 10:46:25"
+        },
         {
             "name": "doctrine/annotations",
             "version": "v1.1.2",
@@ -296,16 +403,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "v2.4.1",
+            "version": "v2.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "328357bd9eea9d671fe5fff0737f01953bfe66a0"
+                "reference": "fec965d330c958e175c39e61c3f6751955af32d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/328357bd9eea9d671fe5fff0737f01953bfe66a0",
-                "reference": "328357bd9eea9d671fe5fff0737f01953bfe66a0",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/fec965d330c958e175c39e61c3f6751955af32d0",
+                "reference": "fec965d330c958e175c39e61c3f6751955af32d0",
                 "shasum": ""
             },
             "require": {
@@ -358,7 +465,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2013-11-12 12:38:28"
+            "time": "2014-01-01 16:43:57"
         },
         {
             "name": "doctrine/doctrine-bundle",
@@ -629,12 +736,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSUserBundle.git",
-                "reference": "945eebb625073c51072b721ec528f12199b34915"
+                "reference": "826f29a97d437e88558dd74e7e15a3e8519b241c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/945eebb625073c51072b721ec528f12199b34915",
-                "reference": "945eebb625073c51072b721ec528f12199b34915",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/826f29a97d437e88558dd74e7e15a3e8519b241c",
+                "reference": "826f29a97d437e88558dd74e7e15a3e8519b241c",
                 "shasum": ""
             },
             "require": {
@@ -689,20 +796,20 @@
             "keywords": [
                 "User management"
             ],
-            "time": "2013-12-10 16:13:14"
+            "time": "2014-01-06 17:33:34"
         },
         {
             "name": "gedmo/doctrine-extensions",
-            "version": "dev-master",
+            "version": "v2.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/l3pp4rd/DoctrineExtensions.git",
-                "reference": "f78aec9a584fb7bd5ff234ba632ab76e7d221a60"
+                "reference": "d2bef940268e4dc5f0f050e80458169a7267813a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/l3pp4rd/DoctrineExtensions/zipball/f78aec9a584fb7bd5ff234ba632ab76e7d221a60",
-                "reference": "f78aec9a584fb7bd5ff234ba632ab76e7d221a60",
+                "url": "https://api.github.com/repos/l3pp4rd/DoctrineExtensions/zipball/d2bef940268e4dc5f0f050e80458169a7267813a",
+                "reference": "d2bef940268e4dc5f0f050e80458169a7267813a",
                 "shasum": ""
             },
             "require": {
@@ -769,7 +876,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2013-12-06 19:17:11"
+            "time": "2013-11-09 21:23:13"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -872,6 +979,17 @@
                 "sql"
             ],
             "time": "2013-11-27 22:51:13"
+        },
+        {
+            "name": "jquery/jquery",
+            "version": "1.10.2",
+            "dist": {
+                "type": "file",
+                "url": "http://code.jquery.com/jquery-1.10.2.js",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -1010,6 +1128,48 @@
                 "psr-3"
             ],
             "time": "2013-11-14 19:48:31"
+        },
+        {
+            "name": "mw/shortcode-bundle",
+            "version": "dev-master",
+            "target-dir": "MW/Bundle/ShortcodeBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mweimerskirch/MWShortcodeBundle.git",
+                "reference": "4c6defcc898a4e04457f1185dfbfca096fa474c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mweimerskirch/MWShortcodeBundle/zipball/4c6defcc898a4e04457f1185dfbfca096fa474c6",
+                "reference": "4c6defcc898a4e04457f1185dfbfca096fa474c6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/framework-bundle": ">=2.2"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "MW\\Bundle\\ShortcodeBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michel Weimerskirch",
+                    "email": "michel@weimerskirch.net",
+                    "homepage": "http://michel.weimerskirch.net"
+                }
+            ],
+            "description": "Bundle that provides a Twig filter to support WordPress-like shortcodes.",
+            "keywords": [
+                "shortcode"
+            ],
+            "time": "2013-12-30 18:44:04"
         },
         {
             "name": "psr/log",
@@ -1197,6 +1357,126 @@
             ],
             "description": "This bundle generates code for you",
             "time": "2013-08-21 18:09:35"
+        },
+        {
+            "name": "stfalcon/tinymce-bundle",
+            "version": "dev-master",
+            "target-dir": "Stfalcon/Bundle/TinymceBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stfalcon/TinymceBundle.git",
+                "reference": "32051165ccb6bde327ec121b3f294d807ceb427e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stfalcon/TinymceBundle/zipball/32051165ccb6bde327ec121b3f294d807ceb427e",
+                "reference": "32051165ccb6bde327ec121b3f294d807ceb427e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/symfony": ">=2.1"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Stfalcon\\Bundle\\TinymceBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stepan Tanasiychuk",
+                    "email": "ceo@stfalcon.com",
+                    "homepage": "http://blog.stfalcon.com"
+                },
+                {
+                    "name": "Igor Negrutsa",
+                    "email": "progi2007@gmail.com",
+                    "homepage": "http://igor-negrutsa.info"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://github.com/stfalcon/TinymceBundle/contributors"
+                }
+            ],
+            "description": "This Bundle integrates TinyMCE WYSIWYG editor into a Symfony2 project.",
+            "keywords": [
+                "editor",
+                "tinymce",
+                "wysiwyg"
+            ],
+            "time": "2013-11-11 08:58:10"
+        },
+        {
+            "name": "stof/doctrine-extensions-bundle",
+            "version": "dev-master",
+            "target-dir": "Stof/DoctrineExtensionsBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stof/StofDoctrineExtensionsBundle.git",
+                "reference": "9da4489322c5442ff021c4cd3f28dd79b2a8df07"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stof/StofDoctrineExtensionsBundle/zipball/9da4489322c5442ff021c4cd3f28dd79b2a8df07",
+                "reference": "9da4489322c5442ff021c4cd3f28dd79b2a8df07",
+                "shasum": ""
+            },
+            "require": {
+                "gedmo/doctrine-extensions": "~2.3.1",
+                "php": ">=5.3.2",
+                "symfony/framework-bundle": "~2.1"
+            },
+            "suggest": {
+                "doctrine/doctrine-bundle": "to use the ORM extensions",
+                "doctrine/mongodb-odm-bundle": "to use the MongoDB ODM extensions"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Stof\\DoctrineExtensionsBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christophe Coevoet",
+                    "email": "stof@notk.org"
+                }
+            ],
+            "description": "Integration of the gedmo/doctrine-extensions with Symfony2",
+            "homepage": "https://github.com/stof/StofDoctrineExtensionsBundle",
+            "keywords": [
+                "behaviors",
+                "doctrine2",
+                "extensions",
+                "gedmo",
+                "loggable",
+                "nestedset",
+                "sluggable",
+                "sortable",
+                "timestampable",
+                "translatable",
+                "tree"
+            ],
+            "time": "2013-10-13 16:27:31"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1474,16 +1754,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.4.0",
+            "version": "v2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "2e47d2edd45080c046bc32dd2ca5c64f31086366"
+                "reference": "377a5fb23bfdc2fb616610b7b7ab7cc9a50e614d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/2e47d2edd45080c046bc32dd2ca5c64f31086366",
-                "reference": "2e47d2edd45080c046bc32dd2ca5c64f31086366",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/377a5fb23bfdc2fb616610b7b7ab7cc9a50e614d",
+                "reference": "377a5fb23bfdc2fb616610b7b7ab7cc9a50e614d",
                 "shasum": ""
             },
             "require": {
@@ -1543,7 +1823,7 @@
                 "doctrine/orm": "~2.2,>=2.2.3",
                 "ircmaxell/password-compat": "1.0.*",
                 "monolog/monolog": "~1.3",
-                "ocramius/proxy-manager": ">=0.3.1,<0.5-dev",
+                "ocramius/proxy-manager": ">=0.3.1,<0.6-dev",
                 "propel/propel1": "1.6.*"
             },
             "type": "library",
@@ -1583,7 +1863,49 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2013-12-03 15:23:03"
+            "time": "2014-01-05 02:12:11"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "v3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "6d03173a1aad98e75f7d33e65b411c519176c59a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/6d03173a1aad98e75f7d33e65b411c519176c59a",
+                "reference": "6d03173a1aad98e75f7d33e65b411c519176c59a",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                },
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.",
+            "homepage": "http://getbootstrap.com",
+            "keywords": [
+                "bootstrap",
+                "css"
+            ],
+            "time": "2013-12-05 16:09:10"
         },
         {
             "name": "twig/extensions",
@@ -1691,7 +2013,11 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "friendsofsymfony/user-bundle": 20,
-        "gedmo/doctrine-extensions": 20
+        "stof/doctrine-extensions-bundle": 20,
+        "braincrafted/bootstrap-bundle": 15,
+        "ali/datatable": 20,
+        "mw/shortcode-bundle": 20,
+        "stfalcon/tinymce-bundle": 20
     },
     "platform": {
         "php": ">=5.3.3"
